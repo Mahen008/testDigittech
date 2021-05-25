@@ -1,0 +1,159 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#deux {
+  background-color: #fff;
+}
+
+#deux .venir {
+  /* border: 5px solid blue; */
+  border-radius: 20px;
+  border: 2px solid blue;
+  padding: 8px;
+}
+
+#deux .btnt {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+#deux .noAct {
+  padding: 8px;
+}
+
+#deux .noActive {
+  color: gray;
+}
+
+#sec1 {
+}
+
+#sec1 .sec1P {
+  text-align: center;
+  color: green;
+  font-style: italic;
+}
+
+#sec1 .promos {
+  position: absolute;
+  right: 120px;
+}
+
+#sec1 .promosChiffre {
+  position: absolute;
+  right: 10px;
+  border: 1px solid rgb(91, 91, 180);
+  border-radius: 5px;
+  padding-inline: 5px;
+  padding-block: 5px;
+}
+
+#sec1 .promosMatch {
+  position: absolute;
+  left: 20px;
+  border: 1px solid rgb(91, 91, 180);
+  border-radius: 5px;
+  padding-inline: 10px;
+  padding-block: 5px;
+}
+
+#sec2 {
+  padding: 10px;
+}
+
+#sec2 .row {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-left: 0;
+}
+
+#sec2 img {
+  overflow: hidden;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  width: 120px;
+  height: 120px;
+  border: 10px solid rgb(201, 194, 194);
+}
+
+#sec2 .row span {
+  color: rgb(201, 194, 194);
+  margin-left: 10px;
+}
+
+#sec2 .score {
+  border: 1px solid rgb(201, 194, 194);
+  background-color: #fff;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  color: blue;
+}
+
+#sec2 .possession {
+  background-color: rgb(223, 217, 217);
+  border-radius: 5px;
+  color: black;
+  border: 1px solid rgb(223, 217, 217);
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+}
+
+#sec2 .possession.last {
+  border: 1px solid blue;
+  color: blue;
+}
+
+#sec2 .i-succ {
+  font-size: 35px;
+  color: rgb(44, 163, 44);
+}
+
+/* Aina */
+.sideBarDigit {
+  border-right: 1px solid #f1f1f1;
+}
+
+.sideBarDigit .logo {
+  padding: 25px;
+  /* width: 50px; */
+}
+.sideBarDigit .logo img {
+  margin-left: 20px;
+  height: 60px;
+  width: 200px;
+}
+
+.sideBarDigit .list1 ul {
+  list-style: none;
+}
+.sideBarDigit .list1 ul > li {
+  height: 60px;
+}
+.sideBarDigit .list1 ul > li a {
+  font-size: 15px;
+  color: rgb(121, 116, 109);
+  font-weight: bold;
+  text-decoration: none;
+}
+.sideBarDigit .list1 i {
+  font-size: 15px;
+  color: rgb(121, 116, 109);
+}
+.sideBarDigit .list1 span {
+  margin-left: 18px;
+}
+.sideBarDigit .list1.down {
+  margin-top: 100px;
+}
